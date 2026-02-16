@@ -3,40 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness Coach Homepage</title>
+    <title>Fitness Coaching Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Fitness Coaching</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>As a certified fitness coach, I specialize in personal training, nutritional guidance, and improving your overall wellness.</p>
-        </section>
-        <section id="services">
-            <h2>My Services</h2>
-            <ul>
-                <li>One-on-one Training</li>
-                <li>Group Classes</li>
-                <li>Nutrition Planning</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email me at: <a href="mailto:info@fitnesscoach.com">info@fitnesscoach.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Fitness Coach. All rights reserved.</p>
-    </footer>
+    <nav>
+        <h1>Fitness Coach</h1>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#plans">Fitness Plans</a></li>
+            <li><a href="#resume">Coach Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login-modal">Login</a></li>
+        </ul>
+    </nav>
+    <section id="hero">
+        <h2>Your Transformation Starts Here!</h2>
+        <p>Join us for tailored fitness plans and professional coaching.</p>
+    </section>
+    <section id="plans">
+        <h2>Fitness Plans</h2>
+        <div class="plan">
+            <h3>Monthly Plans</h3>
+            <p>Standard Plan: $99/month</p>
+            <p>Premium Plan: $199/month</p>
+            <p>Deluxe Plan: $299/month</p>
+        </div>
+        <div class="plan">
+            <h3>Annual Plans</h3>
+            <p>Standard Plan: $999/year</p>
+            <p>Premium Plan: $1999/year</p>
+            <p>Deluxe Plan: $2999/year</p>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Meet Your Coach</h2>
+        <p>Qualifications: Certified Personal Trainer, Nutrition Specialist</p>
+        <p>Experience: 5 years of coaching experience.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Phone: +1 (234) 567-8900</p>
+        <p>Email: <a href="mailto:sarah@fitpro.com">sarah@fitpro.com</a></p>
+    </section>
+    <div id="login-modal">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
